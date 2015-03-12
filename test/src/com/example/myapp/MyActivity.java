@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import java.io.*;
 
-public class MyActivity extends Activity {
+public class M extends Activity {
     private boolean isRecording = false ;
     private Object tmp = new Object() ;
 
@@ -36,7 +36,7 @@ public class MyActivity extends Activity {
                 setDialog();
             }
         });
-        Button start = (Button)findViewById(R.id.start_bt) ;
+        Button start = (Button)findViewById(R.id.srt_bt) ;
         start.setOnClickListener(new View.OnClickListener()
         {
 
